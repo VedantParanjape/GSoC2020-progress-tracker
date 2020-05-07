@@ -12,5 +12,5 @@
 * Went through the code, in order to find solution to github issues on am335x_pru_package
 
 ## 7th May 2020
-* Fixed issue [#44](.[https://github.com/beagleboard/am335x_pru_package/issues/44) on [am335x_pru_package](https://github.com/beagleboard/am335x_pru_package) repository
+* Fixed issue [#44]([https://github.com/beagleboard/am335x_pru_package/issues/44) on [am335x_pru_package](https://github.com/beagleboard/am335x_pru_package) repository
 
