@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "/language-specification"
-permalink: /language
+permalink: /language/
 ---
 
 # Language Specification for PRU
