@@ -12,7 +12,6 @@ permalink: /language/
 
 # Primitive data types: 
 * `int`
-* `float`
 * `bool`
 
 # Binary operators
@@ -53,4 +52,19 @@ else:
 for <identifier>, <condition>, <action to loop completion>:
     <do something>
 {% endhighlight %}
-  
+
+# functions
+{% highlight python %}
+<return type> <function name> (<data type> variable name, ...):
+    <do something>
+
+int add(int a, int b):
+    return a + b
+{% endhighlight %}
+* Each functions must always return something, since void data type is not included
+
+# Register Access
+{% highlight python %}
+bool read_register(register_name, bit_to_be_read)
+bool write_register(register_name, bit_to_be_written, bool value_to_be_written)
+{% endhighlight %}
