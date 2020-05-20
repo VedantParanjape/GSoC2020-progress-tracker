@@ -1,4 +1,13 @@
-theme: jekyll-theme-cayman
+title: 'GSoC 2020 Tracker'
 
-title: GSoC 2020 BeagleBoard.org Progress Tracker
-description: I will write my daily progress of GSoC 2020 here
+header_pages:
+  - about.md
+  - language.md
+
+style: dark
+
+footer: 'follow me on <a href="https://github.com/VedantParanjape">github</a>'
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-console
