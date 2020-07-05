@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "/language-specification"
-permalink: /language/
+title: "/notes"
+permalink: /notes/
 ---
 
 # Resources that helped a lot
