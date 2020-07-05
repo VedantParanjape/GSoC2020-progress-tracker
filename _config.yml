@@ -4,6 +4,7 @@ header_pages:
   - index.md
   - about.md
   - language.md
+  - notes.md
 
 style: dark
 
