@@ -4,6 +4,18 @@ title: "/notes"
 permalink: /notes/
 ---
 
+# Notes
+
+* When we pass `-mmcu=am335x.pru0` to pru-gcc compiler, a macro is defined by the compiler which can be used in the code. Macro is `__AM335X_PRU0__`. It is set to `1` if `pru0` option is passed, and it is undefined if `pru1` option is used. It can be used as follows:
+
+```c
+#ifdef __AM335X_PRU0__
+    #define PRU_NUM 0 
+#else
+    #define PRU_NUM 1
+#endif
+```
+
 # Resources that helped a lot
 
 * [https://github.com/drifter1/compiler](https://github.com/drifter1/compiler)
