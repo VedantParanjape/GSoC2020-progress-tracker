@@ -16,6 +16,8 @@ permalink: /notes/
 #endif
 ```
 
+Refer: [https://github.com/dinuxbg/gnupru/issues/36](https://github.com/dinuxbg/gnupru/issues/36)
+
 # Resources that helped a lot
 
 * [https://github.com/drifter1/compiler](https://github.com/drifter1/compiler)
